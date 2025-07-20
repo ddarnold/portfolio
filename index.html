@@ -1,206 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dorotej-Dado Arnold - Portfolio</title>
-    <style>
-        /* Basic CSS for a clean look */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            background: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2, h3 {
-            color: #2c3e50;
-        }
-        h1 {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        section {
-            margin-bottom: 40px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #eee;
-        }
-        section:last-child {
-            border-bottom: none;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 8px;
-        }
-        ul.skills-list li {
-            display: inline-block;
-            background-color: #e2e6ea;
-            padding: 5px 10px;
-            margin: 0 5px 5px 0;
-            border-radius: 4px;
-        }
-        .project-item, .experience-item, .education-item {
-            margin-bottom: 20px;
-            padding: 15px;
-            background-color: #f9f9f9;
-            border-left: 5px solid #3498db;
-            border-radius: 4px;
-        }
-        .project-item h3, .experience-item h3, .education-item h3 {
-            margin-top: 0;
-            margin-bottom: 5px;
-        }
-        .project-meta, .experience-meta, .education-meta {
-            font-size: 0.9em;
-            color: #666;
-            margin-bottom: 10px;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dorotej-Dado Arnold – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Dorotej-Dado Arnold - Portfolio</h1>
-        </header>
-
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                An computer science student with experience in backend development, DevOps, and autonomous systems.
-                Proficient in Python, Java, C++, Spring Boot, Docker, and ROS.
-                [cite_start]Proven expertise in secure software development, including SBOM generation and machine learning methods for vulnerability analysis. [cite: 7, 8]
-            </p>
-            <ul>
-                [cite_start]<li><strong>Email:</strong> <a href="mailto:dorotej.d.arnold@gmail.com">dorotej.d.arnold@gmail.com</a> [cite: 4]</li>
-                [cite_start]<li><strong>Phone:</strong> +49 176 8595 7205 [cite: 4]</li>
-                [cite_start]<li><strong>GitHub:</strong> <a href="https://github.com/ddarnold" target="_blank">ddarnold</a> [cite: 3]</li>
-                [cite_start]<li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dorotejarnold" target="_blank">dorotejarnold</a> [cite: 4]</li>
-                [cite_start]<li><strong>Location:</strong> Ulm, Germany [cite: 2]</li>
-                [cite_start]<li><strong>Languages:</strong> German, English, Serbo-Croatian [cite: 5]</li>
-            </ul>
-        </section>
-
-        <section id="skills">
-            <h2>Technical Skills</h2>
-            <ul class="skills-list">
-                [cite_start]<li>Python [cite: 17]</li>
-                [cite_start]<li>Java [cite: 17]</li>
-                [cite_start]<li>C++ [cite: 17]</li>
-                [cite_start]<li>SQL [cite: 17]</li>
-                [cite_start]<li>Kotlin [cite: 17]</li>
-                [cite_start]<li>Spring Boot [cite: 18]</li>
-                [cite_start]<li>ROS [cite: 18]</li>
-                [cite_start]<li>Android [cite: 18]</li>
-                [cite_start]<li>Docker [cite: 19]</li>
-                [cite_start]<li>GitHub Actions [cite: 19]</li>
-                [cite_start]<li>CI/CD [cite: 19]</li>
-                [cite_start]<li>CloudSQL [cite: 20]</li>
-                [cite_start]<li>Realtime Linux [cite: 20]</li>
-                [cite_start]<li>Git [cite: 20]</li>
-                [cite_start]<li>SonarQube [cite: 21]</li>
-                [cite_start]<li>Dependency Track [cite: 21]</li>
-                [cite_start]<li>Unit Testing [cite: 21]</li>
-                [cite_start]<li>SBOM [cite: 21]</li>
-                [cite_start]<li>REST APIs [cite: 22]</li>
-                [cite_start]<li>UML [cite: 22]</li>
-                [cite_start]<li>Full-Stack [cite: 22]</li>
-                [cite_start]<li>OOP [cite: 22]</li>
-                [cite_start]<li>ML [cite: 22]</li>
-                [cite_start]<li>Automation [cite: 22]</li>
-            </ul>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project-item">
-                <h3>AI vs CVEs</h3>
-                [cite_start]<p class="project-meta">Keywords: Python, Machine Learning, Security, npm, Model Benchmarking, Automation [cite: 25]</p>
-                </div>
-            <div class="project-item">
-                <h3>Driverless Software - Einstein Motorsport</h3>
-                [cite_start]<p class="project-meta">Keywords: ROS, Perception, Localization, Path Planning, Autonomous Systems [cite: 26]</p>
-            </div>
-            <div class="project-item">
-                <h3>Chess Game</h3>
-                [cite_start]<p class="project-meta">Keywords: Java, Sockets, Multiplayer, Game AI, Backend Logic [cite: 28]</p>
-            </div>
-            <div class="project-item">
-                <h3>Sudoku SAT Solver</h3>
-                [cite_start]<p class="project-meta">Keywords: Android, Kotlin, OCR, SAT Solver, Puzzle Scanning [cite: 30]</p>
-            </div>
-            <div class="project-item">
-                <h3>Online Tutoring Platform</h3>
-                [cite_start]<p class="project-meta">Keywords: Spring Boot, PostgreSQL, CI/CD, SonarQube, CloudSQL, Automated Tests [cite: 32]</p>
-            </div>
-        </section>
-
-        <section id="experience">
-            <h2>Work Experience</h2>
-            <div class="experience-item">
-                <h3>Data Analysis Intern - Diplo Foundation</h3>
-                <p class="experience-meta">2018 - Present | [cite_start]Belgrade, Serbia & Geneva, Switzerland [cite: 15]</p>
-                <ul>
-                    [cite_start]<li>Python Scripting [cite: 15]</li>
-                    [cite_start]<li>Data Harmonization [cite: 15]</li>
-                    [cite_start]<li>AI Development [cite: 15]</li>
-                    [cite_start]<li>SEO [cite: 15]</li>
-                    [cite_start]<li>Webcasting - UI/UX Testing [cite: 15]</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="education">
-            <h2>Education</h2>
-            <div class="education-item">
-                <h3>Hochschule Ulm, B.Sc. Informatik</h3>
-                <p class="education-meta">Notendurchschnitt: 1,7 | 2022 - Present | [cite_start]Ulm, Deutschland [cite: 10]</p>
-            </div>
-            <div class="education-item">
-                <h3>Universität Belgrad, B.Sc. Mathematik (abgebrochen)</h3>
-                <p class="education-meta">Notendurchschnitt: 9/10 | 2021 - 2022 | [cite_start]Belgrad, Serbien [cite: 11, 12]</p>
-            </div>
-            <div class="education-item">
-                <h3>Technische Oberschule "Rade Končar", Informationstechnologien</h3>
-                <p class="education-meta">Notendurchschnitt: 4,4/5 | 2016 - 2020 | [cite_start]Belgrad, Serbien [cite: 13]</p>
-            </div>
-        </section>
-
-        <section id="publications">
-            <h2>Publications</h2>
-            <div class="publication-item">
-                <h3>Efficient SAT Solving and Applications</h3>
-                [cite_start]<p>Seminararbeit, die SAT-Algorithmen und ihre realen Anwendungen untersucht. [cite: 34, 35]</p>
-            </div>
-        </section>
-
-        <section id="extracurricular">
-            <h2>Extracurricular Activities</h2>
-            <ul>
-                [cite_start]<li>Kapitän, Serbisches U21-Nationalrugby-Team [cite: 37]</li>
-                [cite_start]<li>Spieler, Deutsches Nationalrugby-Team [cite: 38]</li>
-                [cite_start]<li>Konzertorganisator & preisgekrönter Cellist [cite: 39]</li>
-            </ul>
-        </section>
-
+  <header>
+    <h1>Dorotej-Dado Arnold</h1>
+    <p>Informatikstudent · Backend · DevOps · Autonome Systeme</p>
+    <div class="social-links">
+      <a href="mailto:dorotej.d.arnold@gmail.com">📧 Email</a>
+      <a href="https://github.com/ddarnold">💻 GitHub</a>
+      <a href="https://www.linkedin.com/in/dorotejarnold/">🔗 LinkedIn</a>
     </div>
+  </header>
+
+  <section id="about">
+    <h2>Über mich</h2>
+    <p>
+      Informatikstudent mit Fokus auf sichere Softwareentwicklung, Backend-Systeme und autonome Systeme. 
+      Fundierte Kenntnisse in Python, Java, C++, Spring Boot, Docker, ROS, maschinellem Lernen und Schwachstellenanalyse.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Technische Fähigkeiten</h2>
+    <ul>
+      <li><strong>Programmiersprachen:</strong> Python, Java, C++, SQL, Kotlin</li>
+      <li><strong>Frameworks:</strong> Spring Boot, ROS, Android</li>
+      <li><strong>DevOps:</strong> Docker, GitHub Actions, CI/CD</li>
+      <li><strong>Cloud & Infrastruktur:</strong> CloudSQL, Realtime Linux, Git</li>
+      <li><strong>Sicherheit:</strong> SBOM, SonarQube, Dependency Track</li>
+      <li><strong>Entwicklung:</strong> REST APIs, UML, OOP, Full-Stack, ML, Automatisierung</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projekte</h2>
+    <ul>
+      <li><strong>AI vs CVEs:</strong> ML-Modell zur Schwachstellenanalyse in npm-Paketen (Python, Automatisierung)</li>
+      <li><strong>Fahrerloser Software:</strong> ROS-basierte Lösung für autonome Fahrzeuge (Wahrnehmung, Lokalisierung, Pfadplanung)</li>
+      <li><strong>Schachspiel:</strong> Mehrspieler-Spiel mit KI in Java</li>
+      <li><strong>Sudoku SAT Solver:</strong> Android-App mit OCR und SAT-Algorithmus</li>
+      <li><strong>Online Tutoring Platform:</strong> Spring Boot, PostgreSQL, CI/CD, CloudSQL, Tests</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Berufserfahrung & Ausbildung</h2>
+    <p><strong>Datenanalyse Praktikant – Diplo Foundation</strong><br>
+      2018 – Heute | Belgrad & Genf<br>
+      Python-Skripting, Datenharmonisierung, KI-Entwicklung, SEO, Webcasting, UI/UX-Testing
+    </p>
+    <p><strong>Hochschule Ulm – B.Sc. Informatik</strong><br>
+      2022 – Heute | Note: 1,7
+    </p>
+    <p><strong>Universität Belgrad – B.Sc. Mathematik (abgebrochen)</strong><br>
+      2021 – 2022 | Note: 9/10
+    </p>
+    <p><strong>Technische Oberschule "Rade Končar"</strong><br>
+      2016 – 2020 | Note: 4,4/5
+    </p>
+  </section>
+
+  <section id="publications">
+    <h2>Veröffentlichungen & Aktivitäten</h2>
+    <p><strong>Effiziente SAT-Lösung und Anwendungen</strong><br>
+    Seminararbeit über SAT-Algorithmen und ihre Anwendungen.</p>
+    <ul>
+      <li>Kapitän, Serbisches U21-Nationalrugby-Team</li>
+      <li>Spieler, Deutsches Nationalrugby-Team</li>
+      <li>Konzertorganisator & preisgekrönter Cellist</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Dorotej-Dado Arnold · Ulm, Deutschland</p>
+  </footer>
 </body>
 </html>
