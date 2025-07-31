@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-sm: 350px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+
+
+  /* new palette*/
+  --color-navy: #0a192f;
+  --color-lightNavy: #112240;
+  --color-darkNavy: #020c1b;
+
+  --color-cyan: #64ffda;
+  --color-lightCyan: #a8fdfa;
+  --color-darkCyan: #14b8a6;
+
+  --color-grey: #8892b0;
+  --color-lightGrey: #ccd6f6;
+  --color-darkGrey: #495670;
+
+  --color-white: #f5f7fa;
+  --color-black: #333333;
+
+  --color-orange: #f9a826;
+  --color-lightOrange: #ffd580;
+  --color-darkOrange: #d48806;
+
+  --color-green: #32cd32;
+
+  --font-body: "Josefin Sans", "sans-serif";
+  --font-special: "Roboto", "sans-serif";
+
+  --cyan-shadow: 0 0 20px rgba(94, 206, 220, 0.5);
+  --cyan-medium-shadow: 10px 10px 200px 150px rgba(94, 206, 220, 0.5);
+  --orange-medium-shadow: 10px 10px 200px 150px rgba(240, 159, 79, 0.5);
+}
+
+body {
+  @apply bg-darkNavy text-lightGrey font-body;
+}
